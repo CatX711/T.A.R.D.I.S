@@ -214,3 +214,5 @@ print("IF YOU WISH TO ACCESS ANOTHER DEVICE, PLEASE TYPE 'adnfh_accesskeyxxdc12'
 accessotherdevice = input()
 if accessotherdevice == "adnfh_accesskeyxxdc12":
     print("RESTART FAILED. MAXIMUM NUMBER OF APPLIANCES SENT OVER AT ONE TIME LIMIT REACHED. SHUTTING OFF...")
+    sleep(3)
+    print("ALL SYSTEMS OFFLINE. GOODBYE.")
